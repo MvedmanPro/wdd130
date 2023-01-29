@@ -5,7 +5,7 @@ margin: 0 auto;
 
 nav a{
     text-align: center;
-    color: white;
+    color: black;
     text-decoration: none;
 }
 
@@ -30,30 +30,30 @@ main section{
 
 #background{
     height: 725px;
-    background-color: white;
+    background-color: rgb(234, 208, 168);
 }
 
 body{
-    background-color: bisque;
+    background-color: white;
 }
 header{
-    background-color: #b33e37;
+    background-color: #f4c967;
 }
 
 nav a:hover{
-    background-color: #f4c967;
-    color: #0b6084;
+    background-color: #b33e37;
+    color: white;
 }
 
 .book, .join{
-    background-color: #f4c967;
-    color: #0b6084;
+    background-color: rgb(234, 208, 168);
+    color: black;
     text-decoration: none;
 }
 
 .book:hover, .join:hover{
-    background-color: white;
-    color: #0b6084;
+    background-color: #b33e37;
+    color: white;
 }
 
 .msg{
@@ -71,11 +71,11 @@ footer{
 }
 
 footer{
-color: #0b6084;
+color: black;
 }
 
 footer a{
-color: #0b6084;
+color: black;
 text-decoration: none;
 }
 
