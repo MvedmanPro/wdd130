@@ -317,7 +317,8 @@ footer a:hover{
 }
 
 footer p{
-    font-size: 0.7em;
+    font-family: 'Roboto';
+    font-size: 1.2em;
 }
 
 footer p a:hover {
