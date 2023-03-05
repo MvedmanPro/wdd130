@@ -129,7 +129,7 @@ h2{
 
 #footage{
     display: grid;
-    grid-template-columns: 150px 250px 250px 250px 250px 250px 100px ;
+    grid-template-columns: 135px 250px 250px 250px 250px 250px 100px ;
     margin-top: 100px;
     align-items: center;
 }
