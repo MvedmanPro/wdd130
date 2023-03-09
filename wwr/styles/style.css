@@ -129,24 +129,24 @@ h2{
 
 #footage{
     display: grid;
-    grid-template-columns: 135px 250px 250px 250px 250px 250px 100px ;
+    grid-template-columns: auto 250px 250px 250px 250px 250px auto ;
     margin-top: 100px;
     align-items: center;
 }
 
-#footage:hover{
-        opacity: .6;
-        transform: scale(1.1);
-}
 
 .pic1{
     grid-column: 2/3;
-    z-index: -1;
     margin-top: 50px;
     border: 10px solid #eddaac;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
+}
 
+.pic1:hover{
+    opacity: .9;
+    transform: scale(1.1);
+    z-index: 0;
 }
 .pic2{
     grid-column: 3/4;
@@ -156,10 +156,13 @@ h2{
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
 }
+.pic2:hover{
+    opacity: .9;
+    transform: scale(1.1);
+}
 
 .pic3{
     grid-column: 4/5;
-    z-index: -1;
     margin-left: -25px;
     margin-top: 50px;
     border: 10px solid #eddaac;
@@ -167,24 +170,36 @@ h2{
     box-shadow: 5px 5px 10px #6f7364;
 }
 
+.pic3:hover{
+    opacity: .9;
+    transform: scale(1.1);
+}
+
 .pic4{
-    grid-template-columns: 5/6;
+    grid-column: 5/6;
     z-index: 1;
     Margin-left: -25px;
     border: 10px solid #eddaac;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
+}
 
+.pic4:hover{
+    opacity: .9;
+    transform: scale(1.1);
 }
 
 .pic5{
-    grid-template-columns: 6/7;
-    z-index: -1;
+    grid-column: 6/7;
     margin-left: -25px;
     margin-top: 50px;
     border: 10px solid #eddaac;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
+}
+.pic5:hover{
+    opacity: .9;
+    transform: scale(1.1);
 }
 main section{
     text-align: center;
@@ -366,7 +381,7 @@ footer p a:hover {
 }
 
 @media screen and (max-width: 900px) {
-    #hero, .home-grid {
+    #hero, .home-grid, #hero-page2, .page2-grid {
         display: block;
         height: auto;
     }
@@ -377,7 +392,7 @@ footer p a:hover {
         display: block;
         padding: 15px;
     }
-    #hero {
+    #hero, #hero-page{
         margin-top: 0;
     }
     #hero-msg {
@@ -394,6 +409,10 @@ footer p a:hover {
         margin: 50px auto;
         width: 60%;
     }
+    .pic1, .pic2, .pic3, .pic4, .pic5{
+        display: flex;
+    }
+    
     #background {
         display: none;
     }
