@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600&family=Marck+Script&display=swap');
+/*
+h1, h3{
+    font-family: 'Barlow Semi Condensed';
+}
+
+
+h2{
+    font-family: Marck Script;
+    font-weight: lighter;
+}
+
+.nav{
+    font-family: 'Barlow Semi Condensed';
+} 
+*/
+#bkgd_future{
+    background-image: url('images/future1_background.jpg');
+}
