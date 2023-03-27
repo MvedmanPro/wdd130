@@ -116,8 +116,17 @@ nav{
     padding: 15px;
     line-height: 2em;
     font-style: italic;
+}
 
-
+.text2{
+    margin-top: -180px;
+    margin-left: 90px;
+    grid-column: 1/2;
+    font-size: 20px;
+    justify-self: center;
+    color: #AC7035; /*#888e85*/
+    line-height: 2em;
+    font-style: italic;
 }
 
 .topic_1, .topic_2, .topic_3{
