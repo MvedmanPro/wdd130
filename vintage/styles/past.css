@@ -134,11 +134,19 @@ nav{
     text-shadow: 2px 1px #434d40;
 }
 
-.ponder1, .ponder2, .ponder3{
+.ponder2, .ponder3-1{
     color: #AC7035;
     font-weight: lighter;
     padding: 15px;
     background-color: #FEFAE0;
+}
+
+.ponder1, .ponder3{
+    color: #D4A373;
+    font-weight: lighter;
+    padding: 15px;
+    background-color: #FEFAE0;
+
 }
 
 
@@ -234,7 +242,7 @@ nav{
     margin-top: -10px;
 }
 
-.ponder3{
+.ponder3, .ponder3-1{
     font-size: 20px;
     font-family: 'Barlow Semi Condensed';
     font-style: italic;

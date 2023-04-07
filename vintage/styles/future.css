@@ -63,15 +63,15 @@ nav{
 }
 
 .past:hover{
-    color: #295071;
+    color: #D4A373;
 }
 
 .future:hover{
-    color: #295071;
+    color: #D4A373;
 }
 
 .home:hover{
-    color: #295071;
+    color: #D4A373;
 }
 
 .past-grid{
@@ -98,12 +98,13 @@ nav{
     grid-row: 1/2;
     justify-self: center;
     z-index: 99;
-    font-size: 30px;
+    font-size: 36px;
+    font-weight: 900;
     margin-top: 550px;
     letter-spacing: 1.2em;
     text-align: center;
-    color: #de5255;
-    text-shadow: #295071 2px 2px;
+    color: #AC7035;
+    text-shadow: #D4A373 2px 2px;
     background-color: #FEFAE0;
     padding: 30px;
     margin-bottom: 90px;
@@ -136,9 +137,10 @@ nav{
     justify-self: center;
     margin-top: 390px;
     margin-right: 50px;
-    color: #68c0e8;
-    word-spacing: 0.5em;
-    text-shadow: black 2px 2px;
+    font-family: "Marck Script";
+    color: #AC7035;
+    word-spacing: 0.1em;
+    text-shadow: white 2px 2px;
     font-weight: bolder;
 }
 
@@ -151,8 +153,8 @@ nav{
     margin-left: 40px;
     margin-top: 150px;
     line-height: 4em;
-    color:#68c0e8;
-    text-shadow: #295071 2px 2px ;
+    color: white;
+    text-shadow: #AC7035  2px 2px ;
     font-family: 'Barlow Semi Condensed'
 
 }
@@ -164,9 +166,10 @@ nav{
     font-weight: bolder;
     word-spacing: 1.3em;
     letter-spacing: 1em;
-    color: #de5255;
-    text-shadow: white 4px 2px;
-    background-color: #ffed9e;
+    font-family: "Marck Script";
+    color: #AC7035;
+    text-shadow: #FEFAE0 4px 2px;
+    background-color: #CCD5AE;
     padding: 100px;
 }
 footer{
